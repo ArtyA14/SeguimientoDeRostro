@@ -1,0 +1,15 @@
+# Modelos descargados (3.7 MB, no se versionan)
+models/
+*.task
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Entorno / editores
+.vscode/
+.idea/
+*.log

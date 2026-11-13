@@ -1,0 +1,6 @@
+# Dependencias del proyecto
+# Versiones verificadas en este equipo (Python 3.13 / Windows).
+mediapipe==1.2.0
+opencv-contrib-python>=4.10
+numpy>=1.26
+pyserial>=3.5

@@ -1,0 +1,42 @@
+{
+  "model_path": "models/face_landmarker.task",
+  "driver": "servo",
+  "camera": {
+    "index": 1,
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "mirror": true
+  },
+  "aiming": {
+    "mode": "aim",
+    "h_fov_deg": 68.0,
+    "offset_deg": 0.0,
+    "invert": false,
+    "angle_gain": 1.6,
+    "ema_alpha": 0.3,
+    "deadband_deg": 2.5,
+    "max_rate_deg_s": 260.0,
+    "min_deg": -90.0,
+    "max_deg": 90.0,
+    "hold_ms": 1500,
+    "return_to_center": false,
+    "kp_closed_loop": 0.6
+  },
+  "servo": {
+    "pin": 9,
+    "center_deg": 90.0,
+    "max_rate_deg_s": 180.0,
+    "accel_deg_s2": 450.0
+  },
+  "serial": {
+    "port": "COM3",
+    "baud": 115200,
+    "send_hz": 20,
+    "state_timeout_ms": 1000
+  },
+  "ui": {
+    "show_landmarks": false,
+    "window": "Seguimiento de rostro"
+  }
+}
